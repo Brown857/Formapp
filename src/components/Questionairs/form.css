@@ -1,0 +1,532 @@
+.form-container {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-container div {
+    margin-bottom: 15px;
+  }
+  
+  .form-container label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .form-container input,
+  .form-container select {
+    width: 100%;
+    padding: 8px 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .form-container input:focus,
+  .form-container select:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  .form-container input[type="date"] {
+    color: #555;
+  }
+  
+  .form-container button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .form-container button:hover {
+    background-color: #0056b3;
+  }
+  
+
+  .appearance-form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    font-family: 'Arial', sans-serif;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .appearance-form h3 {
+    font-size: 18px;
+    color: #333;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+  }
+  
+  .appearance-form div {
+    margin-bottom: 15px;
+  }
+  
+  .appearance-form label {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .appearance-form input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  .appearance-form input[type="checkbox"]:focus {
+    outline: 2px solid #007bff;
+    outline-offset: 2px;
+  }
+  .food-frequency-container {
+    max-width: 1000px; /* Adjust based on your preferred max container size */
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    font-family: 'Arial', sans-serif;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .food-frequency-table {
+    width: 95%; /* Table width adapts to container size */
+    border-collapse: collapse;
+  }
+  
+  .food-frequency-table thead {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .food-frequency-table th,
+  .food-frequency-table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+    word-wrap: break-word; /* Break text to avoid overflow */
+  }
+  
+  .food-frequency-table th {
+    font-weight: bold;
+  }
+  
+  .food-frequency-table tbody tr:nth-child(odd) {
+    background-color: #f2f2f2;
+  }
+  
+  .food-frequency-table tbody tr:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .food-frequency-table input[type="text"] {
+    width: 100%; /* Make input fit perfectly in the cell */
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+    box-sizing: border-box; /* Include padding in width calculation */
+  }
+  
+  .food-frequency-table input[type="text"]:focus {
+    outline: 2px solid #007bff;
+  }
+  .problem-container {
+    max-width: 1000px; /* Adjust to your preferred max width */
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    font-family: 'Arial', sans-serif;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .behavior-table {
+    width: 95%; /* Table adapts to container */
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .behavior-table thead {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .behavior-table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+    word-wrap: break-word; /* Prevent overflow of content */
+  }
+  
+  .behavior-table tr:nth-child(odd) {
+    background-color: #f2f2f2;
+  }
+  
+  .behavior-table tr:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .behavior-table input[type="text"] {
+    width: 100%; /* Ensure input fits inside the cell */
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: left;
+    box-sizing: border-box; /* Include padding in the width */
+  }
+  
+  .behavior-table input[type="text"]:focus {
+    outline: 2px solid #007bff;
+  }
+  
+  .behavior-table strong {
+    display: block;
+    padding: 10px 0;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .domain-container {
+    max-width: 1000px; /* Adjust for responsive design */
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    font-family: 'Arial', sans-serif;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .domain-table {
+    width: 95%; /* Ensures the table fits within the container */
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .domain-table thead {
+    background-color: #007bff;
+    color: rgb(16, 16, 16);
+    text-align: center;
+  }
+  
+  .domain-table th, 
+  .domain-table td {
+    padding: 10px;
+    border: 1px solid #131212;
+    text-align: center; /* Align text centrally */
+    word-wrap: break-word; /* Prevent content overflow */
+  }
+  
+  .domain-table tr:nth-child(odd) {
+    background-color: #f2f2f2; /* Alternating row colors */
+  }
+  
+  .domain-table tr:hover {
+    background-color: #e0e0e0; /* Highlight row on hover */
+  }
+  
+  .domain-table strong {
+    font-weight: bold;
+    font-size: 14px;
+  }
+  
+  .domain-table input[type="text"] {
+    width: 100%; /* Fit input fields within table cells */
+    padding: 5px;
+    border: 1px solid #1a1111;
+    border-radius: 4px;
+    box-sizing: border-box; /* Include padding in width calculation */
+  }
+  
+  .domain-table input[type="text"]:focus {
+    outline: 2px solid #007bff; /* Focused input field outline */
+  }
+      
+  .milestone-chart {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    font-family: 'Arial', sans-serif;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .milestone-chart h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .milestone-chart table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .milestone-chart thead {
+    background-color: #007bff;
+    color: rgb(20, 19, 19);
+  }
+  
+  .milestone-chart th, 
+  .milestone-chart td {
+    padding: 10px;
+    border: 1px solid #090909;
+    text-align: center;
+    vertical-align: middle; /* Ensures text and textareas are vertically centered */
+    word-wrap: break-word;
+  }
+  
+  .milestone-chart th {
+    font-weight: bold;
+    font-size: 14px;
+  }
+  
+  .milestone-chart tr:nth-child(odd) {
+    background-color: #f2f2f2;
+  }
+  
+  .milestone-chart tr:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .milestone-chart textarea {
+    width: 95%; /* Fit neatly inside cells */
+    height: 60px; /* Consistent height for all textboxes */
+    padding: 5px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    box-sizing: border-box; /* Include padding in width calculation */
+    resize: none; /* Prevent resizing for uniformity */
+    font-family: 'Arial', sans-serif;
+    vertical-align: middle; /* Ensures alignment inside the cell */
+  }
+  
+  .milestone-chart textarea:focus {
+    outline: 2px solid #007bff;
+  }
+  
+
+
+  /* General container styling for sections */
+.section-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .section-container h2 {
+    margin-top: 0;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .section-container p {
+    font-size: 14px;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  .section-container input[type="text"] {
+    width: calc(50% - 10px); /* Half width for inline inputs with spacing */
+    margin: 5px;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .section-container input[type="text"]:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  /* Table styles */
+  .table-container {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 10px 0;
+  }
+  
+  .table-container th,
+  .table-container td {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #181616;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .table-container th {
+    background-color: #f1f1f1;
+    font-weight: bold;
+  }
+  
+  .table-container td {
+    background-color: #fff;
+  }
+  
+  .table-container input[type="radio"] {
+    transform: scale(1.2);
+    margin: 0;
+  }
+  
+  .table-container tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  /* Button styling if required */
+  .section-container button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .section-container button:hover {
+    background-color: #0056b3;
+  }
+/* General container styling for feces form */
+.feces-form-container {
+    max-width: 800px; /* Increased to accommodate larger images */
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .feces-form-container h2 {
+    margin-top: 0;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .feces-form-container table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 10px 0;
+  }
+  
+  .feces-form-container th,
+  .feces-form-container td {
+    text-align: center;
+    padding: 15px; /* Increased padding for better spacing */
+    border: 1px solid #ddd;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .feces-form-container th {
+    background-color: #f1f1f1;
+    font-weight: bold;
+  }
+  
+  .feces-form-container td {
+    background-color: #fff;
+  }
+  
+  /* Input field styling */
+  .feces-form-container input[type="text"] {
+    width: 90%;
+    padding: 10px; /* Increased padding for better usability */
+    font-size: 16px; /* Slightly larger text size */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .feces-form-container input[type="text"]:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  /* Image styling for larger sizes */
+  .feces-image {
+    max-width: 350px; /* Increased image size */
+    max-height: 200px; /* Proportional height */
+    object-fit: contain;
+    border: 1px solid #131212;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    padding: 5px;
+  }
+    /* General styling for a larger button */
+button[type="submit"] {
+    display: block;
+    margin: 30px auto; /* Center the button with extra spacing */
+    padding: 16px 30px; /* Larger padding for a bigger button */
+    font-size: 18px; /* Increased font size for better readability */
+    font-weight: bold;
+    color: #fff;
+    background-color: #007bff; /* Primary blue color */
+    border: none;
+    border-radius: 10px; /* Slightly more rounded corners */
+    cursor: pointer;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2); /* Enhanced shadow for depth */
+    transition: background-color 0.3s, box-shadow 0.3s; /* Smooth hover effects */
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+  }
+  
+  button[type="submit"]:active {
+    background-color: #004080; /* Even darker blue on click */
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2); /* Restores original shadow */
+  }
+  
+  button[type="submit"]:focus {
+    outline: none; /* Remove default outline */
+    box-shadow: 0 0 7px rgba(0, 123, 255, 0.7); /* Add a focus ring */
+  }
+  
