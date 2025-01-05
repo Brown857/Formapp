@@ -656,7 +656,7 @@
     // Sleep-related fields
     bedtime: [],
     sleepBehavior: [],
-    weeknights: [],
+    weeknightss: [],
     morningWakeUp: [],
     weekdaysWakeUp: "",
     weekendsWakeUp: "",
@@ -1658,8 +1658,8 @@
   Weeknights:
   <input
     type="text"
-    value={formData.weeknights}
-    onChange={(e) => handleTextInputChange("weeknights", e.target.value)}
+    value={formData.weeknightss}
+    onChange={(e) => handleTextInputChange("weeknightss", e.target.value)}
     placeholder="__:__ am/pm"
   />
   Weekends:

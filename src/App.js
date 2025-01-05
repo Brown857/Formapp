@@ -1,6 +1,6 @@
 import React from 'react';
 import Form from './components/Questionairs/form';
-import Formm from './components/Questionairs/feces';
+
 
 
 
