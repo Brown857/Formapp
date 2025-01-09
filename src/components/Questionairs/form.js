@@ -842,13 +842,15 @@
       e.preventDefault();
   
       try {
-        const response = await fetch("http://localhost:5000/submit-form", {
+        const response = await fetch("https://assessment-form-backend.onrender.com/submit-form", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
           },
           body: JSON.stringify(formData),
         });
+        
+     
   
         if (response.ok) {
           const result = await response.json();
